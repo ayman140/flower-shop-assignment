@@ -2,9 +2,16 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.featured{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-
+/* banner */
 .banner {
     height: 100vh;
     display: flex;
@@ -39,5 +46,131 @@ body {
     font-weight: 700;
     padding: 15px 35px;
 }
+/* main */
 
+/* hot deal  */
+
+.hot-deal{
+    width: 1520px;
+    height: 520px;
+    border-radius: 8px;
+    background-color:rgba(229, 84, 115, 0.05) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hot-deal-content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hot-deal-title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.hot-deal-description{
+    font-size: 15px;
+    color: gray;
+}
+.hot-deal-img{
+    height:350px;
+    width:250px;
+}
+/*  */
+.featured{
+     display:flex;
+     justify-content:space-between;
+}
+.parent{
+    display: flex;
+    gap: 20px; 
+    justify-content:center;
+    /* padding: 30px; */
+}
+.child1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 440px;
+    height:538px; 
+
+
+}
  
+img.child1-img {
+    padding-top: 110px;
+}
+
+
+.child2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 440px;
+    height:538px;  
+}
+ 
+img.child2-img {
+    padding-top: 100px;
+}
+.child3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width:440px;
+    height:538px; 
+    
+}
+img.chil3-img {
+    padding-top: 65px;
+}
+
+/* about */
+
+.about-container{
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 128px 240px; 
+    padding: 50px;
+}
+ .about{
+    display: flex;
+    justify-content: space-around;
+     
+    
+ }
+
+/* footer */
+.footer{
+    background-color: #111010;
+    height:449px;
+    width:1520px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.footer-content{
+    margin-left : 448px;
+    margin-right: 448px;
+      
+}
+ .footer-title{
+    font-size: 48px;
+    font-weight: 800;
+     text-align: center;
+     align-items: center;
+     
+ }
+ .flower{
+    color: #E55473;
+ }
+ .footer-description{
+    text-align: center;
+ }
+ .copyright{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.40);
+
+ }
