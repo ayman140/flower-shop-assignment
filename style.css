@@ -10,6 +10,15 @@ body {
     display: flex;
     flex-direction: column;
 }
+.btn-primary {
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
 
 /* banner */
 .banner {
@@ -39,15 +48,7 @@ body {
     padding-top:8px;
 }
 
-.btn-primary {
-    border-radius: 8px;
-    background: #E55473;
-    border: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px;
-}
+
 /* main */
 
 /* hot deal  */
@@ -137,7 +138,7 @@ img.child2-img {
      height: 300px; 
     
 }
-img.chil3-img {
+img.child3-img {
     padding-top: 50px;
     width: 180px;
     height: 250px;
@@ -183,7 +184,42 @@ img.chil3-img {
      height: 300px;
      
  }
+ /* box subscribe */
+    .box-div{
+        background: url("Flower\ Asset/Rectangle 9.png");
+        background-repeat: no-repeat;
+        height: 449px;
+        margin: 128px 240px ; 
+        background-size:auto ;
+        align-items: center;
+        /* display: flex; */
+         justify-content: center;
+        
+    }
+    .featured{
+        width: 50%;
+        margin: auto;
 
+    }
+    .lebel{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        gap: 20px;
+    }
+    .email{
+        border-radius: 8px;
+        background: #FFF;
+        width: 700px;
+        height: 20px;
+        align-items: center;
+        padding: 15px 35px;
+         
+    }
+    .box-div-chacha{
+        padding-top: 100px;
+    }
+    
 /* footer */
 .footer{
     background-color: #111010;
