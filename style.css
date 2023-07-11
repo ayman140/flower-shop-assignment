@@ -20,13 +20,46 @@ body {
     padding: 15px 35px;
 }
 
+ /* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);;;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    padding-left: 50px;
+}
+.text-primary{
+    color:red;
+}
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    font-size: large;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
 /* banner */
 .banner {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(229, 84, 115, 0.10);;
+    background-color: rgba(229, 84, 115, 0.10);
 }
 .banner-title {
     font-family:sans-serif;
